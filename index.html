@@ -16,15 +16,15 @@
                 <li>Vou fazer ENG ELETRICA</li>
                 <li>Sou Cristão</li>
                 <li><a href="#contatos">Contatos</a></li>
-                <li><a href="https://google.com.br/"target="_blank">Google</a></li>
+                <li><a href="https://google.com.br/" target="_blank">Google</a></li>
             </ul>
         </nav>
 
     </header>
     <section>
         <h2>Olá h2 menor </h2>
-        <img src="SAM_4767.JPG" alt="FOTO" width="300" title="OLHA EU AI OLHA EU AI HAHAHAHA"> 
-    
+        <img src="SAM_4767.JPG" alt="FOTO" width="300" title="OLHA EU AI OLHA EU AI HAHAHAHA">
+
         <article>
 
             <p>
@@ -40,15 +40,40 @@
 
             </ul>
             <section>
-             <article>
-                <h2>Portifólio</h2>
-                <p>Este foi o meu primeiro site desenvolvido estudando front end</p>
+                <article>
+                    <h2>Portifólio</h2>
+                    <p>Este foi o meu primeiro site desenvolvido estudando front end</p>
                 </article>
+            </section>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Nível</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Iniciante</td>
+                            <td>Capaz de construir estrutura de paginas web semânticas e resposívas </td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Intermediário</td>
+                            <td>Experiência com flexbox,grid e animações</td>
+                        </tr>
+
+                    </tbody>
+                </table>
             </section>
 
 
         </aside>
     </section>
+    <br>
     <footer>DIreitos reservados a mim JOAO</footer>
     <section id="contatos">
         <h2>Contatos</h2>
@@ -57,6 +82,33 @@
             Email: <a href="mailto:joaoabbati@joao.com">joaoabbati@joao.com</a>
             TElefone: <a href="tel: 98820">98820</a>
         </address>
+        <form action="">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+
+            <label for="assunto">Assunto: </label>
+            <select name="assunto" id="assunto">
+                <option value="orçamento">Orçamentão</option>
+                <option value="duvida">Dúvida</option>
+                <option value="não sei">Não sei</option>
+
+
+            </select>
+
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="300" rows="-10"></textarea>
+
+            <br>
+            <input type="checkbox" id="inscricao" name="inscricao">
+            <label for="inscricao">Deseja receber a minha newslatter?</label>
+            <input type="submit" value="Enviar mensagem">
+        </form>
     </section>
 </body>
 
